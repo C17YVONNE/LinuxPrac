@@ -1,0 +1,386 @@
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 ~
+$ cd/c/log
+bash: cd/c/log: No such file or directory
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 ~
+$ ^C
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 ~
+$ cd /c/log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cd ..
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c
+$ c ~
+bash: c: command not found
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c
+$ cd /c/log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cd ~
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 ~
+$ cd -
+/c/log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -1
+app.log
+debug.log
+tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -a
+./  ../  app.log  debug.log  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -i
+23643898043722531 app.log    44754521297197869 tomcat.log
+91197892454361251 debug.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 0
+-rw-r--r-- 1 LqyCarl 197121 0 Jul 20 19:52 app.log
+-rw-r--r-- 1 LqyCarl 197121 0 Jul 20 19:52 debug.log
+-rw-r--r-- 1 LqyCarl 197121 0 Jul 20 19:52 tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ^C
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -m
+app.log, debug.log, tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -r
+tomcat.log  debug.log  app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -S
+tomcat.log  debug.log  app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 2
+-rw-r--r-- 1 LqyCarl 197121  0 Jul 20 19:52 app.log
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:13 debug.log
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:13 tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -t
+tomcat.log  debug.log  app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -X
+app.log  debug.log  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ pwd -P
+/c/log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ pwd -L
+/c/log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 3
+-rw-r--r-- 1 LqyCarl 197121   0 Jul 20 19:52 app.log
+-rw-r--r-- 1 LqyCarl 197121  11 Jul 20 21:13 debug.log
+-rw-r--r-- 1 LqyCarl 197121  20 Jul 20 21:13 tomcat.log
+-rwxr-xr-x 1 LqyCarl 197121 579 Jul 20 21:28 tomcat.log.lnk*
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ pwd -P
+/c/log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ pwd -L
+/c/log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ pwd -P
+/c/log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cd ..
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c
+$ cd /c/log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ mkdir [cyqqqq]
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ mkdir happpy
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls
+'[cyqqqq]'/   app.log   debug.log   happpy/   tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -1
+'[cyqqqq]'/
+app.log
+debug.log
+happpy/
+tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 2
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 LqyCarl 197121  0 Jul 20 19:52  app.log
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:13  debug.log
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:13  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp debug.log app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 3
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:35  app.log
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:13  debug.log
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:13  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp -b tomcat.log app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 4
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:37  app.log
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:13  debug.log
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:13  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp -f tomcat.log debug.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 4
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:37  app.log
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:13  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp -i tomcat.log app.log~
+cp: overwrite 'app.log~'? n
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 4
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:37  app.log
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:13  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp -i tomcat.log app.log!
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 5
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:37  app.log
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:13  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 5
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:37  app.log
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 LqyCarl 197121 39 Jul 20 21:43  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp -i tomcat.log app.log
+cp: overwrite 'app.log'? y
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 5
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 LqyCarl 197121 39 Jul 20 21:44  app.log
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 LqyCarl 197121 39 Jul 20 21:43  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l -g
+total 5
+drwxr-xr-x 1 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 197121 39 Jul 20 21:44  app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 197121 39 Jul 20 21:43  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp -n tomcat.log app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l -g
+total 5
+drwxr-xr-x 1 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 197121 39 Jul 20 21:44  app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 197121 39 Jul 20 21:43  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp -n tomcat.log test.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l -g
+total 6
+drwxr-xr-x 1 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 197121 39 Jul 20 21:44  app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 197121 39 Jul 20 21:47  test.log
+-rw-r--r-- 1 197121 39 Jul 20 21:43  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp -b -S .bak debug.log app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l -g
+total 7
+drwxr-xr-x 1 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 197121 20 Jul 20 21:51  app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 197121 39 Jul 20 21:44  app.log.bak
+-rw-r--r-- 1 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 197121 39 Jul 20 21:47  test.log
+-rw-r--r-- 1 197121 39 Jul 20 21:43  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ cp -v app.log tomcat.log
+'app.log' -> 'tomcat.log'
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l -g
+total 7
+drwxr-xr-x 1 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 197121 20 Jul 20 21:51  app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 197121 39 Jul 20 21:44  app.log.bak
+-rw-r--r-- 1 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 197121 39 Jul 20 21:47  test.log
+-rw-r--r-- 1 197121 20 Jul 20 21:54  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -lu -g app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:55 app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ touch -a app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -lu -g app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:58 app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l -g
+total 7
+drwxr-xr-x 1 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 197121 20 Jul 20 21:51  app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 197121 39 Jul 20 21:44  app.log.bak
+-rw-r--r-- 1 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 197121 39 Jul 20 21:47  test.log
+-rw-r--r-- 1 197121 20 Jul 20 21:54  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l
+total 7
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:51  app.log
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 LqyCarl 197121 39 Jul 20 21:44  app.log.bak
+-rw-r--r-- 1 LqyCarl 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 LqyCarl 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 LqyCarl 197121 39 Jul 20 21:47  test.log
+-rw-r--r-- 1 LqyCarl 197121 20 Jul 20 21:54  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ touch -a app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l -g
+total 7
+drwxr-xr-x 1 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 197121 20 Jul 20 21:51  app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 197121 39 Jul 20 21:44  app.log.bak
+-rw-r--r-- 1 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 197121 39 Jul 20 21:47  test.log
+-rw-r--r-- 1 197121 20 Jul 20 21:54  tomcat.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -lu -g app.log
+-rw-r--r-- 1 197121 20 Jul 20 22:02 app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -lu -g app.log
+-rw-r--r-- 1 197121 20 Jul 20 22:03 app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ touch -a app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -lu -g app.log
+-rw-r--r-- 1 197121 20 Jul 20 22:05 app.log
+
+LqyCarl@LAPTOP-GKMQ32EJ MINGW64 /c/log
+$ ls -l -g
+total 7
+drwxr-xr-x 1 197121  0 Jul 20 21:31 '[cyqqqq]'/
+-rw-r--r-- 1 197121 20 Jul 20 21:51  app.log
+-rw-r--r-- 1 197121 20 Jul 20 21:42 'app.log!'
+-rw-r--r-- 1 197121 39 Jul 20 21:44  app.log.bak
+-rw-r--r-- 1 197121 11 Jul 20 21:35  app.log~
+-rw-r--r-- 1 197121 20 Jul 20 21:38  debug.log
+drwxr-xr-x 1 197121  0 Jul 20 21:32  happpy/
+-rw-r--r-- 1 197121 39 Jul 20 21:47  test.log
+-rw-r--r-- 1 197121 20 Jul 20 21:54  tomcat.log
